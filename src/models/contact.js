@@ -8,17 +8,14 @@ const ContactSchema = new Schema({
   },
   nickname: {
     type: String,
-    required: false,
     default: 'No nickname',
   },
   email: {
     type: String,
-    required: false,
     default: 'No email address',
   },
   phone: {
     type: String,
-    required: false,
     default: 'No phone number',
   },
 }, {
