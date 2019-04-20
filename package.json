@@ -1,0 +1,24 @@
+{
+  "name": "cl-cli",
+  "version": "1.0.0",
+  "description": "Contact List Management CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuzumi/cl-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Bogdan Morozyuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuzumi/cl-cli/issues"
+  },
+  "homepage": "https://github.com/yuzumi/cl-cli#readme"
+}
