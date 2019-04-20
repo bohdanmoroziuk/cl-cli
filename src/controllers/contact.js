@@ -15,7 +15,7 @@ const ContactController = Object.freeze({
     ContactModel
       .find({ fullname: search })
       .then((contacts) => {
-        contacts.length && console.info(customers);
+        contacts.length && console.info(contacts);
 
         console.info(`${contacts.length} matches`);
       })
@@ -42,7 +42,7 @@ const ContactController = Object.freeze({
       .then((contacts) => {
         contacts.length && console.info(contacts);
 
-        console.info(`${customers.length} matches`);
+        console.info(`${contacts.length} matches`);
       })
       .catch(console.error)
       .finally(() => connection.close());
