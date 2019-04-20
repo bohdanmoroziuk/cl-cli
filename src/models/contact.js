@@ -23,7 +23,7 @@ const ContactSchema = new Schema({
   },
 }, {
   timestamps: true,
-  collation: 'contacts',
+  collection: 'contacts',
 });
 
 // Contact Model
