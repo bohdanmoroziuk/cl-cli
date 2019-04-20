@@ -24,7 +24,7 @@ const ContactController = Object.freeze({
   },
   edit(_id, contact) {
     ContactModel
-      .update({ _id }, contact)
+      .updateOne({ _id }, contact)
       .then(() => console.info('Contact updated'))
       .catch(console.error)
       .finally(() => connection.close());
